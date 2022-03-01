@@ -6,7 +6,7 @@ use Digitalcloud\ReactiveNotification\Models\DatabaseNotification;
 
 trait Notifiable
 {
-    use Illuminate\Notifications\Notifiable;
+    use \Illuminate\Notifications\Notifiable;
 
     public function notifications()
     {
