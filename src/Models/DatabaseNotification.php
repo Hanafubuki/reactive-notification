@@ -4,6 +4,8 @@ namespace Digitalcloud\ReactiveNotification\Models;
 
 class DatabaseNotification extends \Illuminate\Notifications\DatabaseNotification
 {
+    protected $table = 'databasenotifications';
+    
     public function getDataAttribute()
     {
         if (isset($this->attributes['data'])) {
