@@ -4,7 +4,7 @@ namespace Digitalcloud\ReactiveNotification\Channels;
 
 use Illuminate\Notifications\Notification;
 
-class DatabaseChannel extends Illuminate\Notifications\Channels\DatabaseChannel
+class DatabaseChannel extends \Illuminate\Notifications\Channels\DatabaseChannel
 {
     /**
      * Send the given notification.
